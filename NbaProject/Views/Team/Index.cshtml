@@ -1,0 +1,17 @@
+﻿@model List<NbaProject.TeamRoster>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Team Name</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var teamRoster in @Model)
+        {
+            <tr>
+                <td>@Html.ActionLink(teamRoster.TeamName, "ViewRoster", "Team", new { teamName = teamRoster.TeamName }, null)</td>
+            </tr>
+        }
+    </tbody>
+</table>

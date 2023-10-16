@@ -1,0 +1,20 @@
+﻿@model TeamRoster
+
+    <h2>Team: @Model.TeamName</h2>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Player Name</th>
+                <th>Position</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var playerInfo in Model.Roster)
+            {
+                <tr>
+                    <td>@playerInfo.PlayerName</td>
+                    <td>@playerInfo.Position["Position"]</td>
+                </tr>
+            }
+        </tbody>
+    </table>
