@@ -3969,6 +3969,7 @@ textarea.form-control-lg {
   justify-content: space-between;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
+  
 }
 .navbar > .container,
 .navbar > .container-fluid,
@@ -4352,7 +4353,7 @@ textarea.form-control-lg {
   z-index: 1000;
   flex-grow: 1;
   visibility: visible !important;
-  background-color: transparent;
+  background-color: none;
   border-right: 0;
   border-left: 0;
   transition: none;
@@ -4370,12 +4371,16 @@ textarea.form-control-lg {
   padding: 0;
   overflow-y: visible;
 }
+.navbar-light {
+    background-color: black;
+}
+
 
 .navbar-light .navbar-brand {
-  color: rgba(0, 0, 0, 0.9);
+  color: white;
 }
 .navbar-light .navbar-brand:hover, .navbar-light .navbar-brand:focus {
-  color: rgba(0, 0, 0, 0.9);
+  color: white;
 }
 .navbar-light .navbar-nav .nav-link {
   color: rgba(0, 0, 0, 0.55);

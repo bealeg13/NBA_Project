@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\NbaProject.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\ADMIN\\Desktop\\Repos\\NbaProject\\NbaProject\\wwwroot\\css\\custom.css",
+      "PackagePath": "staticwebassets\\css\\custom.css"
+    },
+    {
       "Id": "C:\\Users\\ADMIN\\Desktop\\Repos\\NbaProject\\NbaProject\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

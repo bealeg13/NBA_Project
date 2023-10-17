@@ -1,0 +1,24 @@
+﻿/* Override Bootstrap navigation bar styles */
+
+/* Change the background color of the navbar to black */
+.bg-white {
+    background-color: black !important;
+}
+
+
+
+    /* Change the color of the navbar brand text to white */
+    .navbar.navbar-light .navbar-brand {
+        color: white;
+    }
+
+    
+/* Override Bootstrap's .text-dark to set color to white */
+.navbar .text-dark {
+    color: white !important;
+}
+
+        /* Change the color of navigation links on hover to red */
+        .navbar.navbar-light .nav-link:hover {
+            color: red; /* Change to your desired hover color */
+        }
