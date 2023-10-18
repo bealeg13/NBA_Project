@@ -12,9 +12,16 @@
             @foreach (var playerInfo in Model.Roster)
             {
                 <tr>
-                    <td>@playerInfo.PlayerName</td>
-                    <td>@playerInfo.Position["Position"]</td>
+                    <td class="bold-text">@playerInfo.PlayerName</td>
+                    <td class="bold-text">@playerInfo.Position["Position"]</td>
                 </tr>
             }
         </tbody>
     </table>
+
+
+<style>
+    .bold-text {
+        font-weight: bold;
+    }
+</style>

@@ -14,5 +14,21 @@ html {
 }
 
 body {
-  margin-bottom: 60px;
+    margin-bottom: 60px;
+    background-image: url('/images/nba-whitelogo.jpg'); /* Update the path to your image */
+    background-size: cover; /* Scales the image to cover the entire background */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-attachment: fixed; /* Makes the background image fixed as the page scrolls */
+}
+
+/*html {
+    background-image: url('images/nba-logo.jpg');*/ /* Update the path to your image */
+    /*background-size: cover;*/ /* Scales the image to cover the entire background */
+    /*background-repeat: no-repeat;*/ /* Prevents the image from repeating */
+    /*background-attachment: fixed;*/ /* Makes the background image fixed as the page scrolls */
+/*}*/
+
+.transparent-bg{
+    background-color: transparent;
+    opacity: 0.9;
 }

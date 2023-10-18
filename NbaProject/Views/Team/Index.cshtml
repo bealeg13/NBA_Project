@@ -1,6 +1,8 @@
 ﻿@model List<NbaProject.TeamRoster>
+<body class="transparent-bg">
 
-<table class="table">
+<table class="user-table">
+        <h1>All Teams</h1>
     <thead>
         <tr>
             <th>Team Name</th>
@@ -10,8 +12,44 @@
         @foreach (var teamRoster in @Model)
         {
             <tr>
-                <td>@Html.ActionLink(teamRoster.TeamName, "ViewRoster", "Team", new { teamName = teamRoster.TeamName }, null)</td>
+                <td class="center-text">
+                    @Html.ActionLink(teamRoster.TeamName, "ViewRoster", "Team", new { teamName = teamRoster.TeamName }, null)
+                </td>
             </tr>
         }
     </tbody>
 </table>
+</body>
+
+
+<style>
+    body {
+        /*margin-bottom: 60px;*/
+        background-image: url('/images/nba-teamlogos.jpg'); /* Update the path to your image */
+        background-size: cover; /* Scales the image to cover the entire background */
+        background-repeat: no-repeat; /* Prevents the image from repeating */
+        background-attachment: fixed; /* Makes the background image fixed as the page scrolls */
+    }
+
+    .user-table {
+        width: 100%;
+        background-color: #202529;
+        border-collapse: collapse;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    h1{
+        text-align:center;
+    }
+
+    h1 {
+        background-color: rgba(0, 0, 0, 0.9); /* Set transparent background color */
+        padding: 20px;
+        color: white;
+    }
+
+    .center-text {
+        text-align:center;
+    }
+</style>
+
