@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "lBKPuP5Zhj9olQjpEgV+K5bgPS3CTrnD+PUGnGv9p80=",
+  "Hash": "Tu5sk6BR3N3fss8O2GEAfwvm3JoxT7jZ2Vk421gOgrs=",
   "Source": "NbaProject",
   "BasePath": "_content/NbaProject",
   "Mode": "Default",
@@ -119,6 +119,40 @@
       "OriginalItemSpec": "wwwroot\\images\\nba-basketballlogo.jpg"
     },
     {
+      "Identity": "C:\\Users\\ADMIN\\Desktop\\Repos\\NbaProject\\NbaProject\\wwwroot\\images\\nba-teamlogo2.jpg",
+      "SourceId": "NbaProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ADMIN\\Desktop\\Repos\\NbaProject\\NbaProject\\wwwroot\\",
+      "BasePath": "_content/NbaProject",
+      "RelativePath": "images/nba-teamlogo2.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\nba-teamlogo2.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\ADMIN\\Desktop\\Repos\\NbaProject\\NbaProject\\wwwroot\\images\\nba-teamlogo3.jpg",
+      "SourceId": "NbaProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ADMIN\\Desktop\\Repos\\NbaProject\\NbaProject\\wwwroot\\",
+      "BasePath": "_content/NbaProject",
+      "RelativePath": "images/nba-teamlogo3.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\nba-teamlogo3.jpg"
+    },
+    {
       "Identity": "C:\\Users\\ADMIN\\Desktop\\Repos\\NbaProject\\NbaProject\\wwwroot\\images\\nba-teamlogos.jpg",
       "SourceId": "NbaProject",
       "SourceType": "Discovered",
@@ -134,6 +168,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\nba-teamlogos.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\ADMIN\\Desktop\\Repos\\NbaProject\\NbaProject\\wwwroot\\images\\nba-teamlogos1.jpg",
+      "SourceId": "NbaProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ADMIN\\Desktop\\Repos\\NbaProject\\NbaProject\\wwwroot\\",
+      "BasePath": "_content/NbaProject",
+      "RelativePath": "images/nba-teamlogos1.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\nba-teamlogos1.jpg"
     },
     {
       "Identity": "C:\\Users\\ADMIN\\Desktop\\Repos\\NbaProject\\NbaProject\\wwwroot\\images\\nba-whitelogo.jpg",

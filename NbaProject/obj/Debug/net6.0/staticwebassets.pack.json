@@ -21,8 +21,20 @@
       "PackagePath": "staticwebassets\\images\\nba-basketballlogo.jpg"
     },
     {
+      "Id": "C:\\Users\\ADMIN\\Desktop\\Repos\\NbaProject\\NbaProject\\wwwroot\\images\\nba-teamlogo2.jpg",
+      "PackagePath": "staticwebassets\\images\\nba-teamlogo2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Desktop\\Repos\\NbaProject\\NbaProject\\wwwroot\\images\\nba-teamlogo3.jpg",
+      "PackagePath": "staticwebassets\\images\\nba-teamlogo3.jpg"
+    },
+    {
       "Id": "C:\\Users\\ADMIN\\Desktop\\Repos\\NbaProject\\NbaProject\\wwwroot\\images\\nba-teamlogos.jpg",
       "PackagePath": "staticwebassets\\images\\nba-teamlogos.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Desktop\\Repos\\NbaProject\\NbaProject\\wwwroot\\images\\nba-teamlogos1.jpg",
+      "PackagePath": "staticwebassets\\images\\nba-teamlogos1.jpg"
     },
     {
       "Id": "C:\\Users\\ADMIN\\Desktop\\Repos\\NbaProject\\NbaProject\\wwwroot\\images\\nba-whitelogo.jpg",
