@@ -1,4 +1,6 @@
-﻿namespace NbaProject
+﻿using NbaProject.Models;
+
+namespace NbaProject
 {
     public class TeamRoster
     {

@@ -1,4 +1,4 @@
-﻿namespace NbaProject
+﻿namespace NbaProject.Models
 {
     public class PlayerInfo
     {

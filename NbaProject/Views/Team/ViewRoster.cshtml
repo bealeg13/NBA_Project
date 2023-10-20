@@ -1,27 +1,51 @@
 ﻿@model TeamRoster
-
+    <body class="transparent-bg">
     <h2>Team: @Model.TeamName</h2>
-    <table class="table">
+    <table class="user-table" >
         <thead>
             <tr>
-                <th>Player Name</th>
-                <th>Position</th>
+                <th class="bold-text">Player Name</th>
+                <th class="bold-text">Position</th>
             </tr>
         </thead>
         <tbody>
             @foreach (var playerInfo in Model.Roster)
             {
                 <tr>
-                    <td class="bold-text">@playerInfo.PlayerName</td>
-                    <td class="bold-text">@playerInfo.Position["Position"]</td>
+                    <td class="color-font">@playerInfo.PlayerName</td>
+                    <td class="color-font">@playerInfo.Position["Position"]</td>
                 </tr>
             }
         </tbody>
     </table>
-
+    </body>
 
 <style>
     .bold-text {
         font-weight: bold;
+        color: white;
     }
+
+    .color-font {
+        color:white;
+    }
+
+    .user-table {
+        width: 100%;
+        background-color: #202529;
+        border-collapse: collapse;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    h2 {
+        background-color: rgba(0, 0, 0, 0.9); /* Set transparent background color */
+        padding: 20px;
+        color: white;
+    }
+
+    h2 {
+        text-align: center;
+    }
+
+
 </style>
